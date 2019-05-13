@@ -21,3 +21,10 @@ To predict whether a mortgage will be funded using only this application data, c
 * Decision Tree Classifier
 * Random Forest Classifier
 * Randomized Search for Hyper Parameter Tuning
+
+# Dataset Summary
+
+* 45,642 observations
+* Target Variable: Result (Funded or Not Funded)
+* 22 Features
+* Class Imbalance: Funded: 36,023 ( 78.9% ) / Not Funded:	9,619 ( 21.1% )
