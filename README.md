@@ -1,10 +1,10 @@
 # cax_mortgage
 
-# Entry in Data Science Competition
+## Entry in Data Science Competition
 
 This project was completed as part of Module 3 for the Flatiron School Data Science Immersive, March 11 2019 Cohort.
 
-# Project Objective
+## Project Objective
 
 From the contest organizer:
 
@@ -12,7 +12,7 @@ Propensity to fund mortgages describes the natural tendency for a mortgage to be
 
 To predict whether a mortgage will be funded using only this application data, certain leading factors driving the loan’s ultimate status will be identified. Solvers will discover the specific aspects of the dataset that have the greatest impact, and build a model based on this information.
 
-# Methods Used
+## Methods Used
 
 * Data Cleaning
 * Exploratory Data Analysis
@@ -25,13 +25,15 @@ To predict whether a mortgage will be funded using only this application data, c
 * RandomizedSearch + GridSearch for Hyper Parameter Tuning
 * VotingClassifier
 
-# Dataset Summary
+## Dataset Summary
 
 * 45,642 observations
 * Target Variable: Result (Funded or Not Funded)
 * 22 Features
 * Class Imbalance: Funded: 36,023 ( 78.9% ) / Not Funded:	9,619 ( 21.1% )
 
-# Outliers
+## Outliers
 
 * Dropped 1,348 observations (0.30%) based on Mortgage Amount or Property Value more than 3 Standard Deviations higher than Mean.
+
+# Exploratory Data Analysis
