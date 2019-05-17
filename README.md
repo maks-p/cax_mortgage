@@ -17,10 +17,13 @@ To predict whether a mortgage will be funded using only this application data, c
 * Data Cleaning
 * Exploratory Data Analysis
 * Feature Engineering
+* Random Over Sampling to adjust for Class Imbalance
 * Logistic Regression
 * Decision Tree Classifier
 * Random Forest Classifier
-* Randomized Search for Hyper Parameter Tuning
+* XGBoost
+* RandomizedSearch + GridSearch for Hyper Parameter Tuning
+* VotingClassifier
 
 # Dataset Summary
 
@@ -28,3 +31,7 @@ To predict whether a mortgage will be funded using only this application data, c
 * Target Variable: Result (Funded or Not Funded)
 * 22 Features
 * Class Imbalance: Funded: 36,023 ( 78.9% ) / Not Funded:	9,619 ( 21.1% )
+
+# Outliers
+
+* Dropped 1,348 observations (0.30%) based on Mortgage Amount or Property Value more than 3 Standard Deviations higher than Mean.
