@@ -19,6 +19,7 @@ To predict whether a mortgage will be funded using only this application data, c
 * Feature Engineering
 * Random Over Sampling to adjust for Class Imbalance
 * SMOTE & ADASYN for Class Imbalance (excluded from Final Model)
+* Principal Component Analysis (excluded from Final Model)
 * Logistic Regression (excluded from Final Model)
 * Decision Tree Classifier
 * Random Forest Classifier
@@ -81,4 +82,13 @@ Where applicable:
 
 ![corr_1](https://user-images.githubusercontent.com/42282874/58131617-1e759a00-7bed-11e9-8d4b-9a180cc0c22f.png)
 
+## Encoding & Feature Engineering
+
+Primarily utilized LabelEncoder to encode categorical features. 
+
+Sample features engineered:
+
+* 'Zeroes' for Credit Score, GDS, TDS
+* Low Mortgage Rate (below 3.75%)
+* Mortgage Payment to Income Ratio (High & Low)
 
