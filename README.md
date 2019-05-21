@@ -45,4 +45,4 @@ Property Value Histogram:
 
 ![download (4)](https://user-images.githubusercontent.com/42282874/58130012-14ea3300-7be9-11e9-8049-31675060373d.png)
 
->> Slightly skewed, Property Value will be log-transformed.
+>>> Slightly skewed, Property Value will be log-transformed.
