@@ -18,11 +18,14 @@ To predict whether a mortgage will be funded using only this application data, c
 * Exploratory Data Analysis
 * Feature Engineering
 * Random Over Sampling to adjust for Class Imbalance
-* Logistic Regression
+* SMOTE & ADASYN for Class Imbalance (excluded from Final Model)
+* Logistic Regression (excluded from Final Model)
 * Decision Tree Classifier
 * Random Forest Classifier
 * XGBoost
-* RandomizedSearch + GridSearch for Hyper Parameter Tuning
+* Extra Trees (excluded from Final Model)
+* AdaBoost
+* GridSearch for Parameter Tuning
 * VotingClassifier
 
 ## Dataset Summary
@@ -34,6 +37,10 @@ To predict whether a mortgage will be funded using only this application data, c
 
 ## Outliers
 
-* Dropped 1,348 observations (0.30%) based on Mortgage Amount or Property Value more than 3 Standard Deviations higher than Mean.
+* Dropped 1,172 observations (0.32%) based on Mortgage Amount or Property Value more than 3 Standard Deviations higher than Mean, or Rate, LTV, TDS, or GDS above a certain threshold.
 
 # Exploratory Data Analysis
+
+Property Value Histogram:
+
+
