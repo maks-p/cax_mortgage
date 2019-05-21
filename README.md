@@ -41,9 +41,21 @@ To predict whether a mortgage will be funded using only this application data, c
 
 # Exploratory Data Analysis
 
+Where applicable:
+
+Funded: 1
+Not Funded: 0
+
 Property Value Histogram:
 
 ![download (4)](https://user-images.githubusercontent.com/42282874/58130012-14ea3300-7be9-11e9-8049-31675060373d.png)
 
-<i>Slightly skewed, Property Value will be log-transformed.</i>
+<i>Slightly right-skewed, Property Value will be log-transformed.</i>
 
+Mortgage Loan Rate:
+
+![rate](https://user-images.githubusercontent.com/42282874/58130026-1c114100-7be9-11e9-8ea5-3413413f0494.png)
+
+By Territory (Canada):
+
+![territory](https://user-images.githubusercontent.com/42282874/58130031-1c114100-7be9-11e9-9aa8-4b863f008eae.png)
