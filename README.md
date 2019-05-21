@@ -1,4 +1,4 @@
-# cax_mortgage
+# CAX Mortgage Competition
 
 ## Entry in Data Science Competition
 
@@ -6,7 +6,7 @@ This project was completed as part of Module 3 for the Flatiron School Data Scie
 
 ## Project Objective
 
-From the contest organizer:
+<i>From the contest organizer:</i>
 
 Propensity to fund mortgages describes the natural tendency for a mortgage to be funded based on certain factors in a customer’s application data.
 
@@ -72,3 +72,11 @@ Where applicable:
 ### Result by Age Range:
 
 ![age_range](https://user-images.githubusercontent.com/42282874/58130034-1c114100-7be9-11e9-9d2f-6b136dd201d8.png)
+
+### Rate + Credit Score:
+
+![credit_x_rate](https://user-images.githubusercontent.com/42282874/58130024-1b78aa80-7be9-11e9-9a70-fff284fee533.png)
+
+### Correlation Matrix (before Feature Engineering):
+
+![corr_1](https://user-images.githubusercontent.com/42282874/58131617-1e759a00-7bed-11e9-8d4b-9a180cc0c22f.png)
