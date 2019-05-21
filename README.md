@@ -46,29 +46,29 @@ Where applicable:
 * Funded: 1
 * Not Funded: 0
 
-Property Value Histogram:
+### Property Value Histogram:
 
 ![download (4)](https://user-images.githubusercontent.com/42282874/58130012-14ea3300-7be9-11e9-8049-31675060373d.png)
 
 <i>Slightly right-skewed, Property Value will be log-transformed.</i>
 
 
-Result by Mortgage Loan Rate:
+### Result by Mortgage Loan Rate:
 
 ![rate](https://user-images.githubusercontent.com/42282874/58130026-1c114100-7be9-11e9-8ea5-3413413f0494.png)
 
 
-Result by Territory (Canada):
+### Result by Territory (Canada):
 
 ![territory](https://user-images.githubusercontent.com/42282874/58130031-1c114100-7be9-11e9-9aa8-4b863f008eae.png)
 
 <i> Only 1 observation found in Territory 'W', was removed. Only 9 in Territory 'X' (Northwest Territories).</i>
 
 
-Result by Mortgage Purpose:
+### Result by Mortgage Purpose:
 
 ![mortgage_purpose](https://user-images.githubusercontent.com/42282874/58130032-1c114100-7be9-11e9-94db-313bf1886ee9.png)
 
-Result by Age Range:
+### Result by Age Range:
 
 ![age_range](https://user-images.githubusercontent.com/42282874/58130034-1c114100-7be9-11e9-9d2f-6b136dd201d8.png)
