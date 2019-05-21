@@ -43,8 +43,8 @@ To predict whether a mortgage will be funded using only this application data, c
 
 Where applicable:
 
-Funded: 1
-Not Funded: 0
+* Funded: 1
+* Not Funded: 0
 
 Property Value Histogram:
 
@@ -52,9 +52,11 @@ Property Value Histogram:
 
 <i>Slightly right-skewed, Property Value will be log-transformed.</i>
 
+
 Mortgage Loan Rate:
 
 ![rate](https://user-images.githubusercontent.com/42282874/58130026-1c114100-7be9-11e9-8ea5-3413413f0494.png)
+
 
 By Territory (Canada):
 
