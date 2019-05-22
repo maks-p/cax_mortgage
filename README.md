@@ -120,7 +120,7 @@ Data was scaled with StandardScaler().
 
 ![roc_ada](https://user-images.githubusercontent.com/42282874/58177098-b4eb9f00-7c71-11e9-93b2-b2137f139116.png)
 
-<i>AUC:  0.7258260206561723</i>
+<i>AUC:  0.7258</i>
 
 ### Feature Importanace - AdaBoost (DecisionTree)
 ![ada_feature_impor](https://user-images.githubusercontent.com/42282874/58177360-3e9b6c80-7c72-11e9-92ad-0f2864822938.png)
@@ -138,7 +138,7 @@ Data was scaled with StandardScaler().
 
 ![roc_rfc](https://user-images.githubusercontent.com/42282874/58177463-6ee30b00-7c72-11e9-8da1-eedabdc56597.png)
 
-<i>AUC:  0.7306963861910512</i>
+<i>AUC:  0.7306</i>
 
 ### Feature Importanace - RFC
 ![featrure_import_rfc](https://user-images.githubusercontent.com/42282874/58177462-6ee30b00-7c72-11e9-8924-67a70c2e8a17.png)
@@ -169,3 +169,6 @@ Data was scaled with StandardScaler().
 ## Conclusions
 
 My best score was 0.6605, which placed 49th out of 293 in the CAX competition. The top score was 0.7524, and the 10th-best score was 0.7066. 
+
+<img width="1159" alt="Screen Shot 2019-05-22 at 9 27 25 AM" src="https://user-images.githubusercontent.com/42282874/58178244-d51c5d80-7c73-11e9-8668-4399a0bc7552.png">
+
