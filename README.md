@@ -110,31 +110,58 @@ Data was scaled with StandardScaler().
 
 ### AdaBoost with Decision Tree Base Estimator
 
-* Train Accuracy score:  0.6661383387947001
-* Test Accuracy score:  0.6547686071388357 
+* Train Accuracy score:  0.6661
+* Test Accuracy score:  0.6547
 
-* Train F1 score:  0.6618933395855503
-* Test F1 score:  0.7502036825810656 
+* Train F1 score:  0.6618
+* Test F1 score:  0.7502
 
 ![cm_ada](https://user-images.githubusercontent.com/42282874/58177099-b5843580-7c71-11e9-95a8-c8ae7f10ec67.png)
 
 ![roc_ada](https://user-images.githubusercontent.com/42282874/58177098-b4eb9f00-7c71-11e9-93b2-b2137f139116.png)
 
 <i>AUC:  0.7258260206561723</i>
+
+### Feature Importanace - AdaBoost (DecisionTree)
 ![ada_feature_impor](https://user-images.githubusercontent.com/42282874/58177360-3e9b6c80-7c72-11e9-92ad-0f2864822938.png)
 
 
 ## Random Forest Classifier
 
-* Train Accuracy score:  0.9948354466448212
-* Test Accuracy score:  0.7927035243778854 
+* Train Accuracy score:  0.9948
+* Test Accuracy score:  0.7927
 
-* Train F1 score:  0.9948429775580611
-* Test F1 score:  0.8750593824228028
+* Train F1 score:  0.9948
+* Test F1 score:  0.8750
 
 ![cmrfc](https://user-images.githubusercontent.com/42282874/58177464-6ee30b00-7c72-11e9-8134-7f64a5629295.png)
 
 ![roc_rfc](https://user-images.githubusercontent.com/42282874/58177463-6ee30b00-7c72-11e9-8da1-eedabdc56597.png)
+
 <i>AUC:  0.7306963861910512</i>
 
+### Feature Importanace - RFC
 ![featrure_import_rfc](https://user-images.githubusercontent.com/42282874/58177462-6ee30b00-7c72-11e9-8924-67a70c2e8a17.png)
+
+## XGBoost
+
+* Train Accuracy score:  0.8434
+* Test Accuracy score:  0.7449
+
+* Train F1 score:  0.8454
+* Test F1 score:  0.8326
+
+![xgb_cm](https://user-images.githubusercontent.com/42282874/58177856-1b24f180-7c73-11e9-85fb-c0cf78fc1b5f.png)
+
+![roc_Xgb](https://user-images.githubusercontent.com/42282874/58177855-1b24f180-7c73-11e9-95d2-2246f7cf1bff.png)
+
+<i>AUC (pred_proba):  0.7438</i>
+
+## Voting Classifier
+
+* Train Accuracy score:  0.9532
+* Test Accuracy score:  0.7777
+
+* Train F1 score:  0.9527
+* Test F1 score:  0.8593
+
