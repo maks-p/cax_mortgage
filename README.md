@@ -109,6 +109,7 @@ Random Over Sampling was used to adjust for Class Imbalance. Experimented with, 
 Data was scaled with StandardScaler().
 
 ### AdaBoost with Decision Tree Base Estimator
+criterion: entropy, max_depth: 25, n_estimators: 200, learning_rate: 0.015
 
 * Train Accuracy score:  0.6661
 * Test Accuracy score:  0.6547
@@ -127,6 +128,7 @@ Data was scaled with StandardScaler().
 
 
 ## Random Forest Classifier
+criterion: gini, max_features: 0.15, n_estimators: 350, max_depth: 30, min_samples_leaf: 5
 
 * Train Accuracy score:  0.9948
 * Test Accuracy score:  0.7927
@@ -144,6 +146,7 @@ Data was scaled with StandardScaler().
 ![featrure_import_rfc](https://user-images.githubusercontent.com/42282874/58177462-6ee30b00-7c72-11e9-8924-67a70c2e8a17.png)
 
 ## XGBoost
+colsample_bytree: 0.75, learning_rate: 0.10, max_depth: 5, alpha: 10, n_estimators: 500, scale_pos_weight: 0.25
 
 * Train Accuracy score:  0.8434
 * Test Accuracy score:  0.7449
