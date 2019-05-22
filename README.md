@@ -78,6 +78,10 @@ Where applicable:
 
 ![credit_x_rate](https://user-images.githubusercontent.com/42282874/58130024-1b78aa80-7be9-11e9-9a70-fff284fee533.png)
 
+#### LTV by Result:
+
+![result_ltv](https://user-images.githubusercontent.com/42282874/58180172-9ee0dd00-7c77-11e9-8f72-fd9f9859a092.png)
+
 #### Correlation Matrix (prior to Feature Engineering):
 
 ![corr_1](https://user-images.githubusercontent.com/42282874/58131617-1e759a00-7bed-11e9-8d4b-9a180cc0c22f.png)
