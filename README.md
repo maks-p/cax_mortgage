@@ -89,6 +89,14 @@ Primarily utilized LabelEncoder to encode categorical features.
 Sample features engineered:
 
 * 'Zeroes' for Credit Score, GDS, TDS
-* Low Mortgage Rate (below 3.75%)
-* Mortgage Payment to Income Ratio (High & Low)
+* Territories (Extracted from FSA) & Urban / Rural split
+* Payment Income Ratio (Income / Mortgage Payment)
+* Mortgage Constant
+* Age Adjusted Income & Credit Score (Income or Credit Score over Age Range Encoding)
+
+After Encoding & Featuring Engineer, the DataFrame contains 55 features.
+
+#### Correlation Matrix (post Feature Engineering):
+
+![corr_2](https://user-images.githubusercontent.com/42282874/58176683-d1d3a280-7c70-11e9-976c-1917c8475169.png)
 
