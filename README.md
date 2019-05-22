@@ -100,3 +100,24 @@ After Encoding & Featuring Engineer, the DataFrame contains 55 features.
 
 ![corr_2](https://user-images.githubusercontent.com/42282874/58176683-d1d3a280-7c70-11e9-976c-1917c8475169.png)
 
+## Modeling
+
+Final Model utilizes AdaBoost (Decision Tree Base Estimator), Random Forests and XGBoost. Experimented with, but did not include Logistic Regression + Extra Trees. Parameters were tuned with GridSearchCV. Final submission was made using a VotingClassifier() with equal weights to the three models.
+
+Random Over Sampling was used to adjust for Class Imbalance. Experimented with, but did not use SMOTE, ADASYN and Random Under Sampling methods.
+
+Data was scaled with StandardScaler().
+
+### AdaBoost with Decision Tree Base Estimator
+
+Train Accuracy score:  0.6661383387947001
+Test Accuracy score:  0.6547686071388357 
+
+Train F1 score:  0.6618933395855503
+Test F1 score:  0.7502036825810656 
+
+![cm_ada](https://user-images.githubusercontent.com/42282874/58177099-b5843580-7c71-11e9-95a8-c8ae7f10ec67.png)
+
+![roc_ada](https://user-images.githubusercontent.com/42282874/58177098-b4eb9f00-7c71-11e9-93b2-b2137f139116.png)
+
+<i>AUC:  0.7258260206561723</i>
