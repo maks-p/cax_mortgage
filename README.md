@@ -155,7 +155,7 @@ Data was scaled with StandardScaler().
 
 ![roc_Xgb](https://user-images.githubusercontent.com/42282874/58177855-1b24f180-7c73-11e9-95d2-2246f7cf1bff.png)
 
-<i>AUC (pred_proba):  0.7438</i>
+<i>AUC:  0.7438</i>
 
 ## Voting Classifier
 
@@ -165,3 +165,7 @@ Data was scaled with StandardScaler().
 * Train F1 score:  0.9527
 * Test F1 score:  0.8593
 
+
+## Conclusions
+
+My best score was 0.6605, which placed 49th out of 293 in the CAX competition. The top score was 0.7524, and the 10th-best score was 0.7066. 
