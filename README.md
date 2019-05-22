@@ -172,10 +172,16 @@ colsample_bytree: 0.75, learning_rate: 0.10, max_depth: 5, alpha: 10, n_estimato
 * Train F1 score:  0.9527
 * Test F1 score:  0.8593
 
+![cm_vc](https://user-images.githubusercontent.com/42282874/58181506-eb2d1c80-7c79-11e9-87c2-0c9f7cfb561e.png)
+
+![roc_vc](https://user-images.githubusercontent.com/42282874/58181505-eb2d1c80-7c79-11e9-812c-bd774719e438.png)
+
+<i>AUC:  0.7498</i>
 
 ## Conclusions
 
-My best score was 0.6605, which placed 49th out of 293 in the CAX competition. The top score was 0.7524, and the 10th-best score was 0.7066. 
+Random Forest achieved the best F1-Score and XGBoost achieved the best AUC. AdaBoost did the best job of identifying True Negatives (True Not Funded), so I included the model in my Voting Classifier. In addition, AdaBoost tended to underfit, which helped balance Random Forest + XGBoost, which both overfit.
+
+My best submission score was 0.6605, which placed 49th out of 293 in the CAX competition. The top score was 0.7524, and the 10th-best score was 0.7066. 
 
 <img width="1159" alt="Screen Shot 2019-05-22 at 9 27 25 AM" src="https://user-images.githubusercontent.com/42282874/58178244-d51c5d80-7c73-11e9-8668-4399a0bc7552.png">
-
